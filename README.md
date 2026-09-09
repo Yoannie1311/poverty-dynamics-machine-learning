@@ -26,22 +26,20 @@ This project aims to:
 
 The dataset was manually compiled from publicly available Eurostat and OECD data.
 
-Countries included:
+**Countries included:**
 
 - Bulgaria
 - Croatia
 - Lithuania
 - Poland
 
-Time period:
+**Time period:** 2014–2025
 
-**2014–2025**
-
-Target variable:
+**Target variable:**
 
 - At-Risk-of-Poverty Rate (AROP)
 
-Predictor variables:
+**Predictor variables:**
 
 - Unemployment
 - Inflation
@@ -84,6 +82,13 @@ Install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Open the notebook:
+
+```text
+notebooks/poverty_dynamics_ml_analysis.ipynb
+```
 
 ---
 
@@ -98,13 +103,16 @@ Model performance was evaluated using:
 The models were evaluated using a chronological train-test split to preserve the temporal structure of the data.
 
 ---
+
 ## Key Results
 
 | Model | R² | MAE | RMSE |
 |------|----:|----:|----:|
 | Linear Regression | 0.659 | 1.470 | 1.878 |
-| Support Vector Regression | **0.809** | **1.082** | **1.406** |
+| **Support Vector Regression** | **0.809** | **1.082** | **1.406** |
 | Random Forest | 0.776 | 1.229 | 1.523 |
+
+---
 
 ## Results
 
@@ -173,17 +181,24 @@ Overview of the complete machine learning workflow used throughout this project.
 - SHAP
 - scikit-optimize
 - matplotlib
+- seaborn
 - scipy
-- statsmodels
 - Jupyter Notebook
 
 ---
 
-## Repository Contents
+## Repository Structure
 
-Currently this repository contains the complete notebook used for data preprocessing, model development, evaluation, and explainability analysis.
-
-Future updates will include a cleaner project structure with separated notebooks, figures, and documentation.
+```text
+poverty-dynamics-machine-learning/
+│
+├── data/
+├── figures/
+├── notebooks/
+├── Machine_Learning_Analysis_of_Poverty_Dynamics.pdf
+├── README.md
+└── requirements.txt
+```
 
 ---
 
@@ -197,4 +212,7 @@ The complete MSc thesis accompanying this project is available below.
 
 ## Author
 
-Yoana Petrova
+**Yoana Petrova**
+
+MSc Data Science & Society  
+Tilburg University
