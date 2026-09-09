@@ -89,6 +89,13 @@ Model performance was evaluated using:
 The models were evaluated using a chronological train-test split to preserve the temporal structure of the data.
 
 ---
+## Key Results
+
+| Model | R² | MAE | RMSE |
+|------|----:|----:|----:|
+| Linear Regression | 0.659 | 1.470 | 1.878 |
+| Support Vector Regression | **0.809** | **1.082** | **1.406** |
+| Random Forest | 0.776 | 1.229 | 1.523 |
 
 ## Results
 
