@@ -78,6 +78,15 @@ Support Vector Regression and Random Forest were optimised using Bayesian hyperp
 
 ---
 
+## Installation
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+
+---
+
 ## Evaluation
 
 Model performance was evaluated using:
