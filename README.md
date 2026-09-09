@@ -1,5 +1,7 @@
 # Machine Learning Analysis of Poverty Dynamics and Euro Adoption in Eastern Europe
 
+**Python • Machine Learning • SHAP • Random Forest • Support Vector Regression • scikit-learn**
+
 ## Overview
 
 This repository contains the code accompanying my MSc Data Science & Society thesis completed at Tilburg University.
