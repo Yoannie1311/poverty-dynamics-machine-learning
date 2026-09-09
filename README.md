@@ -180,11 +180,9 @@ Future updates will include a cleaner project structure with separated notebooks
 
 ## Thesis
 
-**Machine Learning Analysis of Poverty Dynamics and Euro Adoption in Eastern Europe**
+The complete MSc thesis accompanying this project is available below.
 
-MSc Data Science & Society
-
-Tilburg University
+📄 **[Read the full thesis](Machine_Learning_Analysis_of_Poverty_Dynamics.pdf)**
 
 ---
 
