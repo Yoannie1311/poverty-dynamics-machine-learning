@@ -1,27 +1,9 @@
-## Dataset
+# Dataset
 
-The final analytical dataset used in this research is included in the `data/` directory.
+This folder contains the final analytical dataset used for the machine learning models presented in this repository.
 
-The dataset was manually compiled by integrating multiple publicly available socioeconomic indicators from Eurostat and OECD into a single country-year dataset.
+The dataset was manually constructed by combining multiple publicly available socioeconomic indicators obtained from Eurostat and OECD.
 
-**Countries**
+Each row represents a country-year observation.
 
-- Bulgaria
-- Croatia
-- Lithuania
-- Poland
-
-**Period**
-
-2014–2025
-
-**Variables**
-
-- At-Risk-of-Poverty Rate (Target)
-- Unemployment
-- Inflation
-- GDP Growth
-- Gini Coefficient
-- Housing Burden
-- Inability to Face Unexpected Expenses
-- Euro Adoption Status (engineered feature)
+The dataset was used for exploratory data analysis, model training, evaluation, and SHAP explainability.
